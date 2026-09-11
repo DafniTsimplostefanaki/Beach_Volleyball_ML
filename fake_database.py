@@ -25,7 +25,7 @@ for i in range(num_samples):
     num_blockers = random.choice([0, 1])
     defense_position = random.choice(defense_positions)
     
-    # 3. Εφαρμογή Λογικής (Golden Rules + Noise)
+    # 3. Εφαρμογή Λογικής (Golden Rules + Noise) (3rd change)
     
     # --- ΚΑΝΟΝΑΣ 1: Κακή πάσα/υποδοχή οδηγεί σε poke ή forearm ---
     if passing_quality <= 2:
