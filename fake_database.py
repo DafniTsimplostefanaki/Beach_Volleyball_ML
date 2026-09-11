@@ -11,7 +11,7 @@ defense_positions = ['1_open', '1_closed', '2_open', '2_closed']
 server_types = ['standing', 'float', 'jump']
 play_phases = ['sideout', 'transition']
 
-# 2. Δημιουργία κενής λίστας για να αποθηκεύσουμε τα δεδομένα
+# 2. Δημιουργία κενής λίστας για να αποθηκεύσουμε τα δεδομένα (2nd change)
 data = []
 
 for i in range(num_samples):
