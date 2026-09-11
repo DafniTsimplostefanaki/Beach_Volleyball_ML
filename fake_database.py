@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import random
 
-# 1. Ορισμός των παραμέτρων από το Data Dictionary
+# 1. Ορισμός των παραμέτρων από το Data Dictionary (test change)
 num_samples = 1000 # Πόσες φάσεις θέλουμε να παράγουμε
 
 passing_types = ['Middle', 'Close', 'Wide', 'Back', 'Super', 'Go']
