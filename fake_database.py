@@ -57,13 +57,13 @@ for i in range(num_samples):
     # 4. Προσθήκη της γραμμής στα δεδομένα (4th change)
     data.append([
         match_id, reception_quality, passing_quality, passing_type, attack_zone,
-        attacker_distance, num_blockers, defense_position, attack_type, attack_outcome
+        attacker_distance, num_blockers, defense_position, attack_outcome, attack_type
     ])
 
 # 5. Δημιουργία DataFrame και εξαγωγή 
 columns = [
     'match_id', 'reception_quality', 'passing_quality', 'passing_type', 'attack_zone', 
-    'attacker_distance', 'num_blockers', 'defense_position', 'attack_type', 'attack_outcome'
+    'attacker_distance', 'num_blockers', 'defense_position', 'attack_outcome', 'attack_type'
 ]
 df = pd.DataFrame(data, columns=columns)
 
