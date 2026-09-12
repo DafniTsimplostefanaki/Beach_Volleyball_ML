@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import random
 
-# 1. Ορισμός των παραμέτρων από το Data Dictionary
+# 1. Ορισμός των παραμέτρων από το Data Dictionary (test change)
 num_samples = 1000 # Πόσες φάσεις θέλουμε να παράγουμε
 
 passing_types = ['Middle', 'Close', 'Wide', 'Back', 'Super', 'Go']
@@ -11,7 +11,7 @@ defense_positions = ['1_open', '1_closed', '2_open', '2_closed']
 server_types = ['standing', 'float', 'jump']
 play_phases = ['sideout', 'transition']
 
-# 2. Δημιουργία κενής λίστας για να αποθηκεύσουμε τα δεδομένα
+# 2. Δημιουργία κενής λίστας για να αποθηκεύσουμε τα δεδομένα (2nd change)
 data = []
 
 for i in range(num_samples):
@@ -25,7 +25,7 @@ for i in range(num_samples):
     num_blockers = random.choice([0, 1])
     defense_position = random.choice(defense_positions)
     
-    # 3. Εφαρμογή Λογικής (Golden Rules + Noise)
+    # 3. Εφαρμογή Λογικής (Golden Rules + Noise) (3rd change)
     
     # --- ΚΑΝΟΝΑΣ 1: Κακή πάσα/υποδοχή οδηγεί σε poke ή forearm ---
     if passing_quality <= 2:
